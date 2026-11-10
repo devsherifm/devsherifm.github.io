@@ -5,6 +5,8 @@ A mobile-first static invitation inspired by the supplied visual references. Inc
 - Falling autumn leaves after the invitation opens
 - Elegant typography and soft sage/ivory/gold palette
 - Two supplied wedding illustrations, with tap-to-expand lightbox
+- A realistic gold wedding-rings detail above the names
+- Event venue and 4:00 PM start time, with a Google Maps search link
 - Scroll reveal transitions and live countdown
 - RSVP link via WhatsApp
 - Responsive mobile and desktop layout
@@ -23,9 +25,9 @@ Open `http://127.0.0.1:8080` on the same phone. Leave Termux running while testi
 
 ## Customize before publishing
 - `index.html`: edit names, invitation copy, event details and WhatsApp RSVP link.
-- `script.js`: change `new Date('2026-11-15T10:00:00')` if the event time should be different.
+- `script.js`: countdown targets `2026-11-15T16:00:00+05:30` (4:00 PM India Standard Time). Update this if the event time changes.
 - `style.css`: colors, fonts and transitions.
-- The countdown currently targets 10:00 AM on 15 November 2026 in the visitor's local timezone.
+- The countdown uses India Standard Time (UTC+05:30), so visitors in other time zones see the same instant correctly.
 - The RSVP button has no specific recipient yet. Change `https://wa.me/?text=...` to `https://wa.me/COUNTRYCODEPHONENUMBER?text=...`, using digits only for the number.
 
 ## Free hosting

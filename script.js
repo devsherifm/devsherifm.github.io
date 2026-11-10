@@ -5,7 +5,7 @@ document.getElementById('openInvitation').addEventListener('click',()=>{
   startLeaves();
   setTimeout(()=>curtain.remove(),2100);
 });
-const eventDate=new Date('2026-11-15T10:00:00');
+const eventDate=new Date('2026-11-15T16:00:00+05:30'); // 4:00 PM India Standard Time
 function updateCountdown(){
   let diff=eventDate.getTime()-Date.now();
   const ids={days:86400000,hours:3600000,minutes:60000,seconds:1000};
