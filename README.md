@@ -4,7 +4,7 @@ A mobile-first static invitation inspired by the supplied visual references. Inc
 - Full-screen botanical curtain opening on tap
 - Falling autumn leaves after the invitation opens
 - Elegant typography and soft sage/ivory/gold palette
-- Two supplied wedding illustrations, with tap-to-expand lightbox
+- One ivory wedding illustration, with tap-to-expand lightbox
 - A realistic gold wedding-rings detail above the names
 - Event venue and 4:00 PM start time, with a Google Maps search link
 - Scroll reveal transitions and live countdown
